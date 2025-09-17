@@ -1,0 +1,234 @@
+-> loaded checkpoint models/graspnet/logs/log_rs/checkpoint.tar (epoch: 18)
+(pid=26539) /home/yjs/anaconda3/envs/thinkgraspEnv/lib/python3.8/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+(pid=26539)   warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+ Reset environment of episode 0, language goal get something to hold other things
+(LangSAM pid=26539) UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3190.)
+(LangSAM pid=26539) final text_encoder_type: bert-base-uncased
+INFO - 2025-09-17 16:35:39,378 - _client - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Selected Object/Object Part: [object: red bowl]
+Cropping Box Coordinates: (100, 100, 180, 180)
+Objects and Their Properties:
+Object: Red Bowl
+Grasping Score: 85
+Material Composition: 75
+Surface Texture: 30
+Stability Assessment: 80
+Centroid Coordinates: (140, 140)
+Preferred Grasping Location: 5
+Object: Red Mug
+Grasping Score: 70
+Material Composition: 70
+Surface Texture: 35
+Stability Assessment: 75
+Centroid Coordinates: (60, 130)
+Preferred Grasping Location: 2
+Object: Yellow Banana
+Grasping Score: 65
+Material Composition: 50
+Surface Texture: 25
+Stability Assessment: 70
+Centroid Coordinates: (110, 70)
+Preferred Grasping Location: 1
+Object: Gray Scissors
+Grasping Score: 60
+Material Composition: 80
+Surface Texture: 40
+Stability Assessment: 70
+Centroid Coordinates: (120, 110)
+Preferred Grasping Location: 4
+Object: Orange Drill
+Grasping Score: 65
+Material Composition: 85
+Surface Texture: 50
+Stability Assessment: 80
+Centroid Coordinates: (160, 150)
+Preferred Grasping Location: 7
+Object: White Jar Lid
+Grasping Score: 50
+Material Composition: 60
+Surface Texture: 30
+Stability Assessment: 60
+Centroid Coordinates: (80, 110)
+Preferred Grasping Location: 3
+Object: Red Strawberry
+Grasping Score: 55
+Material Composition: 50
+Surface Texture: 40
+Stability Assessment: 65
+Centroid Coordinates: (170, 110)
+Preferred Grasping Location: 6
+Object: Red and White Box
+Grasping Score: 50
+Material Composition: 65
+Surface Texture: 35
+Stability Assessment: 70
+Centroid Coordinates: (130, 50)
+Preferred Grasping Location: 1
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Selected Object/Object Part: 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Cropping Box Coordinates: (100, 100, 180, 180)
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Objects and Their Properties:
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Red Bowl
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 85
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 75
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 30
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 80
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (140, 140)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 5
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Red Mug
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 70
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 70
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 35
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 75
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (60, 130)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 2
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Yellow Banana
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 65
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 50
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 25
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 70
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (110, 70)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 1
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Gray Scissors
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 60
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 80
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 40
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 70
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (120, 110)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 4
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Orange Drill
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 65
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 85
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 50
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 80
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (160, 150)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 7
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: White Jar Lid
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 50
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 60
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 30
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 60
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (80, 110)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 3
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Red Strawberry
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 55
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 50
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 40
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 65
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (170, 110)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 6
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+INFO - 2025-09-17 16:35:39,486 - simulation_main - Object: Red and White Box
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Grasping Score: 50
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Material Composition: 65
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Surface Texture: 35
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Stability Assessment: 70
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Centroid Coordinates: (130, 50)
+INFO - 2025-09-17 16:35:39,486 - simulation_main -   Preferred Grasping Location: 1
+INFO - 2025-09-17 16:35:39,486 - simulation_main - 
+(LangSAM pid=26539) Model loaded from /home/yjs/.cache/huggingface/hub/models--ShilongLiu--GroundingDINO/snapshots/a94c9b567a2a374598f05c584e96798a170c56fb/groundingdino_swinb_cogcoor.pth 
+(LangSAM pid=26539)  => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+(LangSAM pid=26539) setttttttttttttttttttttt
+(LangSAM pid=26539) FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+(LangSAM pid=26539) UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+INFO - 2025-09-17 16:39:35,351 - simulation_main - Number of grasping poses: 6
+UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+Number of grasping poses 6
+Remaining bbox number 1
+Grasp at [ 0.3433522  -0.18872134  0.04334948 -0.24710909  0.86058336  0.21576568
+ -0.3895876 ], the grasp False
+ Episode: 0, step: 1, reward: -1
+INFO - 2025-09-17 16:39:47,607 - _client - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Selected Object/Object Part: [object: red bowl]
+Cropping Box Coordinates: (100, 80, 200, 160)
+Objects and Their Properties:
+Object: Red Bowl
+Grasping Score: 85
+Material Composition: 75
+Surface Texture: 30
+Stability Assessment: 90
+Centroid Coordinates: (150, 120)
+Preferred Grasping Location: 5
+Object: Red Cup
+Grasping Score: 80
+Material Composition: 70
+Surface Texture: 35
+Stability Assessment: 85
+Centroid Coordinates: (50, 110)
+Preferred Grasping Location: 3
+Object: Orange Drill
+Grasping Score: 70
+Material Composition: 85
+Surface Texture: 45
+Stability Assessment: 70
+Centroid Coordinates: (150, 180)
+Preferred Grasping Location: 7
+Object: Banana
+Grasping Score: 65
+Material Composition: 50
+Surface Texture: 25
+Stability Assessment: 80
+Centroid Coordinates: (100, 70)
+Preferred Grasping Location: 2
+Object: Scissors
+Grasping Score: 60
+Material Composition: 80
+Surface Texture: 40
+Stability Assessment: 75
+Centroid Coordinates: (120, 90)
+Preferred Grasping Location: 5
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Selected Object/Object Part: 
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Cropping Box Coordinates: (100, 80, 200, 160)
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Objects and Their Properties:
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Object: Red Bowl
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Grasping Score: 85
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Material Composition: 75
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Surface Texture: 30
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Stability Assessment: 90
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Centroid Coordinates: (150, 120)
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Preferred Grasping Location: 5
+INFO - 2025-09-17 16:39:47,608 - simulation_main - 
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Object: Red Cup
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Grasping Score: 80
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Material Composition: 70
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Surface Texture: 35
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Stability Assessment: 85
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Centroid Coordinates: (50, 110)
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Preferred Grasping Location: 3
+INFO - 2025-09-17 16:39:47,608 - simulation_main - 
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Object: Orange Drill
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Grasping Score: 70
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Material Composition: 85
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Surface Texture: 45
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Stability Assessment: 70
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Centroid Coordinates: (150, 180)
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Preferred Grasping Location: 7
+INFO - 2025-09-17 16:39:47,608 - simulation_main - 
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Object: Banana
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Grasping Score: 65
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Material Composition: 50
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Surface Texture: 25
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Stability Assessment: 80
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Centroid Coordinates: (100, 70)
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Preferred Grasping Location: 2
+INFO - 2025-09-17 16:39:47,608 - simulation_main - 
+INFO - 2025-09-17 16:39:47,608 - simulation_main - Object: Scissors
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Grasping Score: 60
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Material Composition: 80
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Surface Texture: 40
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Stability Assessment: 75
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Centroid Coordinates: (120, 90)
+INFO - 2025-09-17 16:39:47,608 - simulation_main -   Preferred Grasping Location: 5
+INFO - 2025-09-17 16:39:47,608 - simulation_main - 
+X Error of failed request:  BadWindow (invalid Window parameter)
+  Major opcode of failed request:  15 (X_QueryTree)
+  Resource id in failed request:  0x4c00026
+  Serial number of failed request:  3001
+  Current serial number in output stream:  3001
+
+进程已结束，退出代码为 1
